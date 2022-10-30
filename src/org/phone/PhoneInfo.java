@@ -21,6 +21,10 @@ public class PhoneInfo {
 	{
 		System .out.println("osName;anroid 11");
 	}
+	public void phNo()
+	{
+		System .out.println("PhNO;9659596764");
+	}
 	//main method creation
 	//main ctrl+space and press enter
 	public static void main(String[]args) {
@@ -34,6 +38,7 @@ public class PhoneInfo {
 		p.Camera();
 		p.Storage();
 		p.osName();
+		p.phNo();
 				
 		
 	}
